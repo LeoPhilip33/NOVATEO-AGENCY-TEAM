@@ -8,3 +8,11 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
+
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/bg.svg);
+	background-size: cover;
+	background-position: 0 0;
+}
