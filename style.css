@@ -636,7 +636,7 @@ footer p {
 		height: auto;
 		background-image: unset;
 		background-color: var(--white);
-		padding-top: 15vh;
+		padding-top: 5vh;
 	}
 
 	.second-container .subtitle-right{
@@ -672,7 +672,7 @@ footer p {
 		background-image: unset;
 		background-color: var(--yellow);
 		height: auto;
-		padding-top: 15vh;
+		padding-top: 5vh;
 	}
 
 	.nilk-third-container{
@@ -691,6 +691,8 @@ footer p {
 		background-color: var(--white);
 		flex-direction: column-reverse;
 		align-items: center;
+		height: auto;
+		padding-top: 5vh;
 	}
 
 	.fourth-container .subtitle-right{
