@@ -1,4 +1,4 @@
-$('.coconut_mango').click(() => {
+$('.coffee_OAT').click(() => {
     $('.activeclass_coffee_OAT').toggleClass('active');
 })
 
