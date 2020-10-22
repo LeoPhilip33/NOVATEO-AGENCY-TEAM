@@ -587,11 +587,12 @@ footer p {
 	}
 
 	.nilk-title{
-		border-left-color: var(--white); 
+		border: none; 
 	}
 
 	.subtitle,.title{
 		font-size: 4rem;
+		padding-left: 0;
 	}
 
 	.title-right, .subtitle-right{
@@ -601,6 +602,7 @@ footer p {
 
 	.subtitle, .subtitle-right{
 		color: var(--white);
+		padding-left: 0;
 	}
 
 	p{
@@ -628,7 +630,12 @@ footer p {
 
 	/* deuxieme slide */
 
-
+	.second-container{
+		height: auto;
+		background-image: unset;
+		background-color: var(--yellow);
+		padding-top: 15vh;
+	}
 
 	.second-nilk{
 		width: 80%;
@@ -650,6 +657,8 @@ footer p {
 	.third-container{
 		background-image: unset;
 		background-color: var(--yellow);
+		height: auto;
+		padding-top: 15vh;
 	}
 
 	.nilk-third-container{
