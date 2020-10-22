@@ -31,7 +31,7 @@ body{
     width: 100%;
     background-image: url(img/bg.svg);
     background-size: cover;
-    background-position: 0 -13vh;
+    background-position: 0 -0;
     display: flex;
     justify-content: space-around;
     background-repeat: no-repeat;
@@ -186,6 +186,20 @@ p {
 
 .img-concept-plaisir{
 	width: 80%;
+}
+
+
+/* QUATRIEME CONTAINER */
+
+.fourth-container{
+	background-image: url(img/bg4.svg);
+	height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
 }
 
 
