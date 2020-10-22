@@ -1396,11 +1396,11 @@ form {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgba(255,255,255,.5);
+        background-color: rgba(255,255,255,.8);
     }
 
     .no-horizontal img {
-        animation: turn 1s ease infinite;
+        animation: turn 1.5s ease infinite;
         width: 20%;
 
     }
@@ -1410,12 +1410,13 @@ form {
             transform: rotate(90deg);
         }
 
-        50% {
-            transform: rotate(0deg);
-        }
 
-        100% {
-            transform: rotate(90deg);
+
+        70% {
+            transform: rotate(0);
+        }
+        100%{
+            transform: rotate(90deg);        	
         }
     }
 }
