@@ -954,7 +954,7 @@ footer p {
 }
 
 .espacement_qr_code {
-    cursor: pointer;
+    /* cursor: pointer; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1052,7 +1052,7 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    /* cursor: pointer; */
     position: absolute;
     right: 10px;
     top: 10px;
@@ -1066,7 +1066,7 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    /* cursor: pointer; */
     position: absolute;
     right: 10px;
     top: 10px;
@@ -1080,7 +1080,7 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    /* cursor: pointer; */
     position: absolute;
     right: 10px;
     top: 10px;
