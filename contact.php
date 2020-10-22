@@ -12,7 +12,9 @@
 
 <body>
 	<div id="cursor"></div>
-
+    <div class="no-horizontal">
+        <img src="img/iphone.png">
+    </div>
     <navbar>
         <div class="navbar">
             <div>
