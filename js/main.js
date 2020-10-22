@@ -23,7 +23,7 @@ window.addEventListener('mousemove', (e) => {
     cursor.style.left = x + "px";
 })
 
-$('a ,.espacement_qr_code, .croix_coffe_oat, .croix_chocolate_banana, .croix_coconut_mango').hover(() => {
+$('a ,.espacement_qr_code, .croix_coffe_oat, .croix_chocolate_banana, .croix_coconut_mango, input, textarea, button').hover(() => {
     cursor.classList.toggle('active');
 })
 
