@@ -3,6 +3,7 @@
     --yellow: #FEC72C;
     --blue: #08A5B6;
     --black: #000;
+    --white: #fff;
 }
 
 * {
@@ -472,4 +473,83 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+	navbar{
+		display: none;
+	}
+	.main-container{
+		background-image: unset;
+		background-color: var(--yellow);
+		position: relative;
+		height: auto;
+		padding-top: 10vh;
+	}
+
+	.nilk-intro-container{
+		width: 60%;
+		padding-left: 10%;
+	}
+
+	.nilk-title{
+		border-left-color: var(--white); 
+	}
+
+	.subtitle,.title{
+		font-size: 4rem;
+	}
+
+	.title-right, .subtitle-right{
+		font-size: 4rem;
+		text-align: left;
+	}
+
+	.subtitle, .subtitle-right{
+		color: var(--white);
+	}
+
+	p{
+		font-size: 1rem;
+	}
+
+	.img-accueil-container img{
+		margin-bottom: 10vh;
+	}
+
+	.voir-plus-link,.voir-plus-link-right{
+		background-color: var(--white);
+		
+		width: 100px;
+	}
+
+	.voir-plus-link{
+		margin-left: 58%;
+	}
+
+	.voir-plus-link-right{
+		margin-right: 58%;
+		margin-left: unset;
+	}
+
+
+
+	.second-nilk{
+		width: 80%;
+		padding-right: 0;
+		padding-left: 0;
+		text-align: left;
+	}
+
+	.img-plante{
+		width: 100%;
+	}
+
+	.p-right{
+		text-align: left;
+	}
 }
