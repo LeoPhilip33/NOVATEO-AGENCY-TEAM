@@ -145,7 +145,21 @@ html {
 }
 
 .ZeroConcessionByNilk2Go {
-    background-color: white;
+    border: 3px solid #FEC72C;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.ZeroConcessionByNilk2Go:hover {
+    background-color: #FEC72C;
+    color: white;
+    border: 3px solid #FEC72C;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.ZeroConcessionByNilk2Go>.link_menu_navbar:hover {
+    color: white;
 }
 
 .link_menu_navbar {
@@ -153,6 +167,8 @@ html {
     text-decoration: none;
     font-size: 15px;
 }
+
+.link_animation {}
 
 
 /* FIN NAVABR */
