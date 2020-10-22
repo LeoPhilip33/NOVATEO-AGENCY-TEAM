@@ -488,7 +488,6 @@ p {
 
 .img-nilk-sport.active {
     height: 70%;
-    margin-left: 20%;
     transform: translateX(0);
     opacity: 1;
 }
