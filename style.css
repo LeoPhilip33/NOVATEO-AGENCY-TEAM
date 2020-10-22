@@ -486,8 +486,16 @@ p {
     transition: .6s .2s ease;
 }
 
+.qr-img-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	height: 70%;
+}
+
 .img-nilk-sport.active {
-    height: 70%;
+    height: 100%;
     transform: translateX(0);
     opacity: 1;
 }
@@ -981,6 +989,7 @@ footer p {
     left: 50%;
     height: 75%;
     width: 80%;
+    overflow: hidden;
     border: 10px solid #ff9900;
     background-color: white;
     border-radius: 30px;
