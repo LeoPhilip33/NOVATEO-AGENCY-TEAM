@@ -621,11 +621,13 @@ footer p {
 
 	.voir-plus-link{
 		margin-left: 58%;
+		margin-bottom: 2rem;
 	}
 
 	.voir-plus-link-right{
 		margin-right: 58%;
 		margin-left: unset;
+		margin-bottom: 2rem;
 	}
 
 	/* deuxieme slide */
@@ -633,8 +635,16 @@ footer p {
 	.second-container{
 		height: auto;
 		background-image: unset;
-		background-color: var(--yellow);
+		background-color: var(--white);
 		padding-top: 15vh;
+	}
+
+	.second-container .subtitle-right{
+		color: var(--black);
+	}
+
+	.second-container .voir-plus-link-right{
+		background-color: var(--yellow);
 	}
 
 	.second-nilk{
@@ -674,9 +684,17 @@ footer p {
 	/* quatrieme container */
 	.fourth-container{
 		background-image: unset;
-		background-color: var(--yellow);
+		background-color: var(--white);
 		flex-direction: column-reverse;
 		align-items: center;
+	}
+
+	.fourth-container .subtitle-right{
+		color: var(--black);
+	}
+
+	.fourth-container .voir-plus-link-right{
+		background-color: var(--yellow);
 	}
 
 	.fourth-nilk{
