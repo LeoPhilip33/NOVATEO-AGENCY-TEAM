@@ -17,8 +17,32 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    cursor: none;
 }
 
+a{
+	cursor: none;
+}
+
+
+#cursor{
+	height: 15px;
+	width: 15px;
+	background-color: rgba(254,199,44,1);
+	position: fixed;
+	z-index: 101;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	border: 2px solid var(--blue);
+	pointer-events: none;
+	transition: height .2s, width .2s,background-color .2s;
+}
+
+#cursor.active{
+	height: 30px;
+	width: 30px;
+	background-color: rgba(254,199,44,0);
+}
 
 /* LOADER */
 
@@ -486,6 +510,13 @@ footer p {
 @media only screen and (max-width: 768px) {
 
 
+	html{
+		cursor: inherit;
+	}
+
+	#cursor{
+		display: none;
+	}
 	/* menu */
 	navbar a{
 		display: none;
