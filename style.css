@@ -662,6 +662,10 @@ footer p {
 		text-align: left;
 	}
 
+	.nilk-title-right{
+		border-right: unset;
+	}
+
 
 	/* troisieme slide */
 	.third-container{
