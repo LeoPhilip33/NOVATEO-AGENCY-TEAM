@@ -2,125 +2,162 @@
 
 
 
-:root{
-	--yellow: #FEC72C;
-	--blue: #08A5B6;
-	--black: #000;
+:root {
+    --yellow: #FEC72C;
+    --blue: #08A5B6;
+    --black: #000;
 }
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-html{
-	font-size: 62.5%;
-}
-
-.main-container{
-	height: 100vh;
-	width: 100%;
-	background-image: url(img/bg.svg);
-	background-size: cover;
-	background-position: 0 0;
-	display: flex;
-	justify-content: space-around;
-}
-
-.nilk-intro-container{
-	display: flex;
-	justify-content: center;
-	height: 100%;
-	width: 30%;
-	flex-direction: column;
-	align-items: start;
+html {
+    font-size: 62.5%;
 }
 
 
-.nilk-title{
-	border-left: 3px solid var(--yellow);
+/* premier container */
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.svg);
+    background-size: cover;
+    background-position: 0 -13vh;
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
 }
 
-.nilk-title-right{
-	border-right: 3px solid var(--yellow);
-	width: 100%;
+.nilk-intro-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    flex-direction: column;
+    align-items: start;
 }
 
-.p-right{
-	text-align: right;
+
+.nilk-title {
+    border-left: 3px solid var(--yellow);
 }
 
-.title,.title-right{
-	color: var(--blue);
-}
-	
-.subtitle,.subtitle-right{
-	color: var(--yellow);
+
+
+.subtitle,
+.subtitle-right {
+    color: var(--yellow);
 }
 
-.title,.subtitle{
-	font-size: 5rem;
-	padding-left: 1rem;
+.title,
+.subtitle {
+    font-size: 5rem;
+    padding-left: 1rem;
 }
 
-.title-right,.subtitle-right{
-	padding-right: 1rem;
-	font-size: 5rem;
-	text-align: right;
+
+
+p {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    line-height: 2;
 }
 
-p{
-	font-size: 1.5rem;
-	margin-top: 4rem;
-	margin-bottom: 4rem;
-	line-height: 2;
+.voir-plus-link {
+    text-decoration: none;
+    background-color: var(--yellow);
+    display: flex;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    color: var(--black);
+    margin-left: 20%;
 }
 
-.voir-plus-link{
-	text-decoration: none;
-	background-color: var(--yellow);
-	display: flex;
-	padding: 1rem 2rem;
-	border-radius: 15px;
-	font-size: 1.4rem;
-	color: var(--black);
-	margin-left: 20%;
+
+.img-accueil-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.voir-plus-link-right{
-	text-decoration: none;
-	background-color: var(--yellow);
-	display: flex;
-	padding: 1rem 2rem;
-	border-radius: 15px;
-	font-size: 1.4rem;
-	color: var(--black);
-	margin-left: 50%;
-}
-
-.img-accueil-container{
-	width: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.img-accueil{
-	width: 70%;
+.img-accueil {
+    width: 70%;
 }
 
 
 /* SECOND CONTAINER */
 
-.second-container{
-	height: 100vh;
-	width: 100%;
-	background-image: url(img/bg2.svg);
-	background-size: cover;
-	background-position: -15vw 0;
-	background-repeat: no-repeat;
+.second-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nilk-title-right {
+    border-right: 3px solid var(--yellow);
+    width: 100%;
+}
+
+.p-right {
+    text-align: right;
+}
+
+.title,
+.title-right {
+    color: var(--blue);
+}
+
+.title-right,
+.subtitle-right {
+    padding-right: 1rem;
+    font-size: 5rem;
+    text-align: right;
+}
+
+
+.voir-plus-link-right {
+    text-decoration: none;
+    background-color: var(--yellow);
+    display: flex;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    color: var(--black);
+    margin-left: 50%;
+}
+
+
+/* TROISIEME CONTAINER */
+
+.third-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg3.svg);
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nilk-third-container{
+	width: 50%;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100%;
 }
