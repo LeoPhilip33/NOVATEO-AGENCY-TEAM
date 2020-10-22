@@ -479,10 +479,41 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
 .alignement_items {
     display: flex;
+}
+
+.qr_code_design {
+    width: 140px;
+    height: 400px;
+}
+
+.qr_code_design:hover {
+    width: 140px;
+    height: 400px;
+    animation: 1.5s qr_code_design_hover;
+}
+
+@keyframes qr_code_design_hover {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.espacement_qr_code {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
 }
