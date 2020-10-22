@@ -14,8 +14,7 @@ $('.main-container').bind('mousewheel', function(event) {
 
     } else {
         secondSection.scrollIntoView();
-        $('.img-plante').addClass('active');
-        $('.second-nilk').addClass('active');
+
     }
 });
 
@@ -27,8 +26,7 @@ $('.second-container').bind('mousewheel', function(event) {
 
     } else {
         thirdSection.scrollIntoView();
-        $('.img-concept-plaisir').addClass('active');
-        $('.third-nilk').addClass('active');
+
 
     }
 });
@@ -37,13 +35,11 @@ $('.second-container').bind('mousewheel', function(event) {
 $('.third-container').bind('mousewheel', function(event) {
     if (event.originalEvent.wheelDelta >= 0) {
         secondSection.scrollIntoView();
-        $('.img-plante').addClass('active');
-        $('.second-nilk').addClass('active');
+
 
     } else {
         fourthSection.scrollIntoView();
-        $('.img-nilk-sport').addClass('active');
-        $('.fourth-nilk').addClass('active');
+
 
     }
 });
@@ -51,11 +47,29 @@ $('.third-container').bind('mousewheel', function(event) {
 $('.fourth-container').bind('mousewheel', function(event) {
     if (event.originalEvent.wheelDelta >= 0) {
         thirdSection.scrollIntoView();
-        $('.img-concept-plaisir').addClass('active');
-        $('.third-nilk').addClass('active');
+
 
     } else {
         footer.scrollIntoView();
 
     }
 });
+
+
+
+
+
+$(window).scroll(function() {
+    if ($('.second-container ').isInViewport()) {
+        $('.img-plante').addClass('active');
+        $('.second-nilk').addClass('active');
+    }
+    if ($('.third-container ').isInViewport()) {
+        $('.img-concept-plaisir').addClass('active');
+        $('.third-nilk').addClass('active');
+    }
+    if ($('.fourth-container ').isInViewport()) {
+        $('.img-nilk-sport').addClass('active');
+        $('.fourth-nilk').addClass('active');
+    }
+})
