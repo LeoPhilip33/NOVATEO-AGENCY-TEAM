@@ -733,10 +733,12 @@ footer p {
 
 	footer{
 		flex-direction: column-reverse;
+		background-color: var(--yellow);
 	}
 
 	footer p{
 		text-align: center;
+		color: var(--white);
 	}
 
 	.rs-container{
@@ -745,6 +747,7 @@ footer p {
 
 	.rs-container img{
 		width: 50%;
+		mix-blend-mode: difference;
 	}
 
 }
