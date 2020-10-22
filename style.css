@@ -15,7 +15,6 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-
     overflow-x: hidden;
 }
 
@@ -150,6 +149,7 @@ html {
     border: 3px solid #FEC72C;
     padding: 7px;
     border-radius: 7px;
+    transition: 0.5s;
 }
 
 .ZeroConcessionByNilk2Go:hover {
@@ -158,10 +158,7 @@ html {
     border: 3px solid #FEC72C;
     padding: 7px;
     border-radius: 7px;
-}
-
-.ZeroConcessionByNilk2Go>.link_menu_navbar:hover {
-    color: white;
+    transition: 0.5s;
 }
 
 .link_menu_navbar {
@@ -169,8 +166,6 @@ html {
     text-decoration: none;
     font-size: 15px;
 }
-
-.link_animation {}
 
 
 /* FIN NAVABR */
