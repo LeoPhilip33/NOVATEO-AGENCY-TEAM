@@ -23,13 +23,13 @@
             </div>
             <div class="navbar_menu">
                 <div class="link_animation">
-                    <a class="link_menu_navbar" href="#reutilisable">Bouteille réutilisable</a>
+                    <a class="link_menu_navbar" href="index.html#reutilisable">Bouteille réutilisable</a>
                 </div>
                 <div>
-                    <a class="link_menu_navbar" href="#sport">Exercice Sportif</a>
+                    <a class="link_menu_navbar" href="index.html#sport">Exercice Sportif</a>
                 </div>
                 <div>
-                    <a class="link_menu_navbar" href="#couleur">Couleurs</a>
+                    <a class="link_menu_navbar" href="index.html#couleur">Couleurs</a>
                 </div>
                 <div>
                     <a class="link_menu_navbar" href="contact.php">Contact</a>
