@@ -16,6 +16,8 @@ html {
     font-size: 62.5%;
 }
 
+body {}
+
 
 /* premier container */
 
@@ -24,7 +26,7 @@ html {
     width: 100%;
     background-image: url(img/bg.svg);
     background-size: cover;
-    background-position: 0 -13vh;
+    background-position: 0 -0;
     display: flex;
     justify-content: space-around;
     background-repeat: no-repeat;
@@ -128,6 +130,17 @@ p {
     margin-left: 50%;
 }
 
+.img-plante-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-plante {
+    width: 70%;
+}
+
 
 /* TROISIEME CONTAINER */
 
@@ -186,3 +199,57 @@ p {
 
 
 /* FIN NAVABR */
+
+.nilk-third-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.img-concept-plaisir-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-concept-plaisir {
+    width: 80%;
+}
+
+
+/* QUATRIEME CONTAINER */
+
+.fourth-container {
+    background-image: url(img/bg4.svg);
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--yellow);
+}
+
+.rs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+footer p {
+    margin: 0;
+}
