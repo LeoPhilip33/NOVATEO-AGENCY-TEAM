@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="main" lang="fr">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,16 +11,8 @@
 </head>
 
 <body>
-    <div class="no-horizontal">
-        <img src="img/iphone.png">
-    </div>
 	<div id="cursor"></div>
-    <section id="loader" class="loader">
-        <img style="--i:1" src="img/nilk1.png" alt="">
-        <img style="--i:2" src="img/nilk2.png" alt="">
-        <img style="--i:3" src="img/nilk3.png" alt="">
-        <p class="loading-p">Chargement</p>
-    </section>
+
     <navbar>
         <div class="navbar">
             <div>
@@ -40,7 +32,7 @@
                     <a class="link_menu_navbar" href="#couleur">Couleurs</a>
                 </div>
                 <div>
-                    <a class="link_menu_navbar" href="contact.php">Contact</a>
+                    <a class="link_menu_navbar" href="">Contact</a>
                 </div>
                 <div>
                     <a class=" ZeroConcessionByNilk2Go" href="http://twitter.com/share?&text=%23ZeroConcessionByNilk2Go">#ZeroConcessionByNilk2Go</a>
@@ -53,64 +45,50 @@
     	<a class="link_menu_navbar" href="#reutilisable">Bouteille réutilisable</a>
     	<a class="link_menu_navbar" href="#sport">Exercice Sportif</a>
     	<a class="link_menu_navbar" href="#couleur">Couleurs</a>
-    	<a class="link_menu_navbar" href="contact.php">Contact</a>
+    	<a class="link_menu_navbar" href="">Contact</a>
     	<a class=" ZeroConcessionByNilk2Go" href="http://twitter.com/share?&text=%23ZeroConcessionByNilk2Go">#ZeroConcessionByNilk2Go</a>
     </section>
-    <section class="main-container">
-        <div class="nilk-intro-container first-nilk">
-            <div class="nilk-title">
-                <h2 class="title">Découvrez</h2>
-                <h1 class="subtitle">Nilk</h1>
+    <section class="contact-container">
+        <h1 class="contact-title">Contact</h1>
+        <form class="container-contact-us" action="contactform.php" method="post">
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="name" required="">
+                        <label class="span-text">Nom Prénom</label>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="mail" required="">
+                        <label class="span-text">E-mail</label>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input name="subject" type="text" required="">
+                        <label class="span-text">Sujet</label>
+                        <span class="line"></span>
+                    </div>
+                </div>
             </div>
-            <p>Du lait sans lait. Faites le choix d'une alternative végétale pour retrouver vos pauses gourmandes sans concession. 100% biologique, 100% vegan, 100% bon. </p>
-            <a class="voir-plus-link" href="">Voir plus</a>
-        </div>
-        <div class="img-accueil-container">
-            <img class="img-accueil" src="img/nilk-bottle.svg" alt="">
-        </div>
-    </section>
-    <section id="reutilisable" class="second-container">
-        <div class="img-plante-container">
-            <img class="img-plante" src="img/plante.png" alt="">
-        </div>
-        <div class="nilk-intro-container second-nilk">
-            <div class="nilk-title-right">
-                <h2 class="title-right">Une bouteille </h2>
-                <h1 class="subtitle-right">réutilisable</h1>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox textarea">
+                        <textarea name="message" required="required"></textarea>
+                        <label class="span-text">Votre message</label>
+                        <span class="line"></span>
+                    </div>
+                </div>
             </div>
-            <p class="p-right">Votre bouteille Nilk2go se transforme en pot grâce à des graines présentes l'emballage. De plus,
-                ce dernier est 100% biodégradable. Le couvercle est fait avec des fils de canne à sucre. </p>
-            <a class="voir-plus-link-right" href="">Voir plus</a>
-        </div>
-    </section>
-    <section id="sport" class="third-container">
-        <div class="nilk-third-container third-nilk">
-            <div class="nilk-title">
-                <h2 class="title">Un exercice sportif </h2>
-                <h1 class="subtitle">Pour votre santé</h1>
+            <div class="row100">
+                <div class="col">
+                    <button class="send" type="submit" name="submit">Envoyer</button>
+                </div>
             </div>
-            <p>Votre bouteille Nilk se transforme en pot grâce à des graines présentes l'emballage. De plus, ce dernier est 100% biodégradable. Le couvercle est fait avec des fils de canne à sucre. </p>
-            <a class="voir-plus-link" href="">Voir plus</a>
-        </div>
-        <div class="img-concept-plaisir-container">
-            <img class="img-concept-plaisir" src="img/nilk-sport.png" alt="">
-        </div>
-    </section>
-    <section id="couleur" class="fourth-container">
-        <div class="img-plante-container">
-        	<a class="qr-img-container" href="qr_code/index.html">
-            <img class="img-nilk-sport" src="img/concept-plaisir.png" alt="">
-            </a>
-        </div>
-        <div class="nilk-intro-container fourth-nilk">
-            <div class="nilk-title-right">
-                <h2 class="title-right">Des couleurs</h2>
-                <h1 class="subtitle-right">Qui conduisent à des vidéos</h1>
-            </div>
-            <p class="p-right">Nous avons décidé de vous proposer un exercice sportif au dos de votre bouteille favorite de Nilk2go. Il y en a de nombreux à découvrir ! Il s'agit d'une façon ludique de se maintenir en forme, et cela s'inscrit dans notre démarche de protéger votre santé.
-            </p>
-            <a class="voir-plus-link-right" href="">Voir plus</a>
-        </div>
+        </form>
     </section>
     <footer id="footer">
         <div class="rs-container">
@@ -122,8 +100,6 @@
         <p> Ce site est la propriété intellectuelle de Leo Philip, Yohann Tonnerre, Matéo Roux, Samuel Agut, Mathis Chantereau et Vincent Soubabère</p>
     </footer>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/viewport.js"></script>
-    <script type="text/javascript" src="js/blockScroll.js"></script>
 
     <script>
         var div = document.createElement('div');
