@@ -13,6 +13,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+.main{
+	overflow-y: hidden;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
