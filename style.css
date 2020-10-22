@@ -168,19 +168,19 @@ html {
     position: relative;
 }
 
-.link_menu_navbar::after{
-	content: '';
-	position: absolute;
-	bottom: -.5rem;
-	left: 0;
-	background-color: var(--yellow);
-	height: 3px;
-	width: 0;
-	transition: .2s ease;
+.link_menu_navbar::after {
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    background-color: var(--yellow);
+    height: 3px;
+    width: 0;
+    transition: .2s ease;
 }
 
-.link_menu_navbar:hover::after{
-	width: 75%;
+.link_menu_navbar:hover::after {
+    width: 75%;
 }
 
 
