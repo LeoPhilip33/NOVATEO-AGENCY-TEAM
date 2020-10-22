@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-
-
 :root {
     --yellow: #FEC72C;
     --blue: #08A5B6;
@@ -42,12 +39,9 @@ html {
     align-items: start;
 }
 
-
 .nilk-title {
     border-left: 3px solid var(--yellow);
 }
-
-
 
 .subtitle,
 .subtitle-right {
@@ -59,8 +53,6 @@ html {
     font-size: 5rem;
     padding-left: 1rem;
 }
-
-
 
 p {
     font-size: 1.5rem;
@@ -79,7 +71,6 @@ p {
     color: var(--black);
     margin-left: 20%;
 }
-
 
 .img-accueil-container {
     width: 50%;
@@ -105,7 +96,6 @@ p {
     justify-content: space-around;
 }
 
-
 .nilk-title-right {
     border-right: 3px solid var(--yellow);
     width: 100%;
@@ -126,7 +116,6 @@ p {
     font-size: 5rem;
     text-align: right;
 }
-
 
 .voir-plus-link-right {
     text-decoration: none;
@@ -153,11 +142,47 @@ p {
     justify-content: space-around;
 }
 
-.nilk-third-container{
-	width: 50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	height: 100%;
+.nilk-third-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
 }
+
+
+/* DEBUT NAVABR */
+
+.logopng {
+    width: 250px;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #FEC72C;
+}
+
+.navbar_menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ZeroConcessionByNilk2Go {
+    background-color: white;
+}
+
+.link_menu_navbar {
+    color: #FEC72C;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* FIN NAVABR */
